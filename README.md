@@ -1,31 +1,124 @@
-<h1 align="center">Hi 👋, I'm Akhilesh Malthi</h1>
-<h3 align="center">An enthusiastic Programmer and Passionate in learning and building new AI systems.</h3>
+# Hi there, I'm Akhilesh Malthi 👋
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=akhileshmalthi&label=Profile%20views&color=0e75b6&style=flat" alt="akhileshmalthi" /> </p>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=AI+Engineer+%26+Python+Developer;RAG+%26+LLM+Specialist;Building+Intelligent+Systems" alt="Typing SVG" />
+</div>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=akhileshmalthi" alt="akhileshmalthi" /></a> </p>
+## 🚀 About Me
 
-<p align="left"> <a href="https://twitter.com/akhileshmalthi" target="blank"><img src="https://img.shields.io/twitter/follow/akhileshmalthi?logo=twitter&style=for-the-badge" alt="akhileshmalthi" /></a> </p>
+I'm a **Python programmer and AI engineer** specializing in **Retrieval-Augmented Generation (RAG)** and **Large Language Model applications**. I build production-ready AI agents and pipelines that deliver domain-specific search, reasoning, and orchestration at scale.
 
-- 🔭 I’m currently working on [AI Data Analyst](https://github.com/AkhileshMalthi/AI-Data-Analyst)
+- 🔬 Currently working as **ML Research Intern** at Aegion Dynamic Solutions
+- 🧠 Passionate about **Knowledge Graphs**, **Medical AI**, and **Intelligent Agents**
+- 🏆 **1st Place** winner in AI Agents competition by Growstacks.AI
+- 📊 Solved **400+ coding problems** (200+ on LeetCode)
+- 💼 Delivered professional software consultancy worth **₹15,000**
 
-- 🌱 I’m currently learning **LangGraph**
+## 🛠️ Tech Stack
 
-- 👨‍💻 All of my projects are available at [https://github.com/AkhileshMalthi/](https://github.com/AkhileshMalthi/)
+### Languages & Frameworks
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
-- 📫 How to reach me **akhileshmalthi2299@gmail.com**
+### AI/ML & Deep Learning
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/akhileshmalthi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="akhileshmalthi" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/akhilesh-malthi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="akhilesh-malthi" height="30" width="40" /></a>
-</p>
+### Databases & Tools
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+## 🏆 Key Achievements
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=akhileshmalthi&show_icons=true&locale=en&layout=compact" alt="akhileshmalthi" /></p>
+```python
+class AkhileshAchievements:
+    def __init__(self):
+        self.diagnostic_accuracy_improvement = "85%"
+        self.medical_entity_extraction_accuracy = "92%"
+        self.data_processing_speed_improvement = "70% faster"
+        self.students_mentored = "200+"
+        self.competition_wins = ["1st Place - AI Agents", "2nd Place - SQL Contest"]
+        self.certifications = [
+            "IT Specialist - Python Programming",
+            "IT Specialist - Java Development", 
+            "IT Specialist - HTML & CSS"
+        ]
+```
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=akhileshmalthi&show_icons=true&locale=en" alt="akhileshmalthi" /></p>
+## 🔥 Featured Projects
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=akhileshmalthi&" alt="akhileshmalthi" /></p>
+### 🏥 Medical Reasoning Chatbot
+- **Think-On-Graph methodology** for medical reasoning
+- **Knowledge Graphs** with Neo4j for enhanced reasoning
+- **92% accuracy** in medical entity extraction
+- **Tech Stack:** Python, LangChain, LlamaIndex, ChromaDB, Neo4j, FastAPI
+
+### 🤖 TaskFlow Agent
+- **AI-powered task management** via CrewAI agents
+- **Multi-platform integration:** Slack, Trello, ClickUp
+- **Streamlit UI** for configuration and visualization
+- **Tech Stack:** Python, CrewAI, LangChain, Groq API, Streamlit
+
+### ⚡ CodePG CLI Application
+- **Automated coding playground** setup for multiple languages
+- **AI-powered file generation** with custom specifications
+- **VS Code integration** for seamless development
+- **Tech Stack:** Python, LangChain, Llama 3.2, VS Code API
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</div>
+
+## 🌟 Current Focus
+
+```mermaid
+graph TD
+    A[🧠 AI Research] --> B[Medical Reasoning Systems]
+    A --> C[RAG Architectures]
+    A --> D[Knowledge Graphs]
+    
+    E[🚀 Development] --> F[Production AI Pipelines]
+    E --> G[LLM Applications]
+    E --> H[Intelligent Agents]
+    
+    I[📚 Learning] --> J[Advanced ML Techniques]
+    I --> K[System Architecture]
+    I --> L[Healthcare AI]
+```
+
+## 📫 Let's Connect!
+
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akhileshmalthi2299@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_GITHUB_USERNAME)
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=blueviolet&style=for-the-badge" alt="Profile Views" />
+</div>
+
+<div align="center">
+  <i>⚡ "Building the future of AI, one algorithm at a time" ⚡</i>
+</div>
