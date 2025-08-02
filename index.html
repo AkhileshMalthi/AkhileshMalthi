@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Software Engineer & Creator</title>
+    <title>Akhilesh Malthi - AI Engineer & Python Programmer</title>
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -42,7 +42,22 @@
             position: relative;
         }
 
-        /* Animated Background */
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            padding: 2px 4px;
+            border-radius: 4px;
+            transition: var(--transition);
+        }
+
+        a:hover {
+            background: var(--accent-color);
+            color: var(--primary-bg);
+            text-decoration: none;
+            box-shadow: 0 2px 8px rgba(0, 212, 255, 0.3);
+        }
+
+        /* Neural Network Background */
         .bg-animation {
             position: fixed;
             top: 0;
@@ -50,21 +65,47 @@
             width: 100%;
             height: 100%;
             z-index: -1;
-            opacity: 0.6;
+            opacity: 0.15;
+            overflow: hidden;
         }
 
-        .particle {
+        .neural-node {
             position: absolute;
-            width: 2px;
-            height: 2px;
+            width: 4px;
+            height: 4px;
             background: var(--accent-color);
             border-radius: 50%;
-            animation: float 6s ease-in-out infinite;
+            box-shadow: 0 0 6px rgba(0, 212, 255, 0.3);
         }
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0; }
-            50% { transform: translateY(-100px) rotate(180deg); opacity: 1; }
+        .neural-connection {
+            position: absolute;
+            height: 1px;
+            background: linear-gradient(90deg, 
+                transparent, 
+                rgba(0, 212, 255, 0.2) 20%, 
+                rgba(0, 212, 255, 0.4) 50%, 
+                rgba(0, 212, 255, 0.2) 80%, 
+                transparent
+            );
+            transform-origin: left center;
+            animation: pulse 4s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.2; }
+            50% { opacity: 0.6; }
+        }
+
+        @keyframes nodeGlow {
+            0%, 100% { 
+                box-shadow: 0 0 6px rgba(0, 212, 255, 0.3);
+                transform: scale(1);
+            }
+            50% { 
+                box-shadow: 0 0 12px rgba(0, 212, 255, 0.6);
+                transform: scale(1.2);
+            }
         }
 
         /* Main Container */
@@ -78,11 +119,14 @@
 
         /* Header */
         .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             padding: 2rem 0;
             border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .header .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
         }
 
         .logo {
@@ -149,7 +193,9 @@
         }
 
         .cta-button {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
             padding: 1rem 2rem;
             background: var(--accent-gradient);
             color: white;
@@ -229,6 +275,11 @@
             font-size: 1.3rem;
             font-weight: 600;
             margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .link-card:hover .link-title {
+            color: var(--text-primary);
         }
 
         .link-description {
@@ -326,6 +377,26 @@
             --hover-bg: rgba(0, 102, 204, 0.1);
         }
 
+        /* Light theme neural network adjustments */
+        body.light-theme .bg-animation {
+            opacity: 0.08;
+        }
+
+        body.light-theme .neural-node {
+            background: var(--accent-color);
+            box-shadow: 0 0 4px rgba(0, 102, 204, 0.3);
+        }
+
+        body.light-theme .neural-connection {
+            background: linear-gradient(90deg, 
+                transparent, 
+                rgba(0, 102, 204, 0.15) 20%, 
+                rgba(0, 102, 204, 0.25) 50%, 
+                rgba(0, 102, 204, 0.15) 80%, 
+                transparent
+            );
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .container {
@@ -377,10 +448,12 @@
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <div class="logo">&lt;/YourName&gt;</div>
-            <button class="theme-toggle" id="themeToggle">
-                <i class="fas fa-sun"></i>
-            </button>
+            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                <div class="logo">&lt;/Akhilesh Malthi&gt;</div>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
         </div>
     </header>
 
@@ -389,8 +462,8 @@
         <!-- Hero Section -->
         <section class="hero">
             <div class="hero-content">
-                <h1>Your Name</h1>
-                <p class="subtitle">Software Engineer & Creator</p>
+                <h1>Akhilesh Malthi</h1>
+                <p class="subtitle">AI Engineer & Python Programmer</p>
                 <p class="bio">
                     Passionate about building innovative solutions and creating meaningful digital experiences. 
                     Always learning, always creating, always pushing the boundaries of what's possible.
@@ -403,13 +476,13 @@
         <section class="links-section" id="links">
             <h2 class="section-title">Connect & Explore</h2>
             <div class="links-grid">
-                <a href="[Your Portfolio Link]" class="link-card" target="_blank" rel="noopener noreferrer">
+                <a href="https://akhileshmalthi.github.io/portfolio/" class="link-card" target="_blank" rel="noopener noreferrer">
                     <div class="link-icon">
                         <i class="fas fa-briefcase"></i>
                     </div>
                     <h3 class="link-title">Portfolio</h3>
                     <p class="link-description">
-                        Discover my latest projects, case studies, and creative work showcasing my skills and passion for development.
+                        Discover my latest projects and work showcasing my skills and passion for development.
                     </p>
                 </a>
 
@@ -423,7 +496,7 @@
                     </p>
                 </a>
 
-                <a href="[Your LinkedIn Profile Link]" class="link-card" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/akhilesh-malthi/" class="link-card" target="_blank" rel="noopener noreferrer">
                     <div class="link-icon">
                         <i class="fab fa-linkedin"></i>
                     </div>
@@ -433,7 +506,7 @@
                     </p>
                 </a>
 
-                <a href="[Your GitHub Profile Link]" class="link-card" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/AkhileshMalthi" class="link-card" target="_blank" rel="noopener noreferrer">
                     <div class="link-icon">
                         <i class="fab fa-github"></i>
                     </div>
@@ -448,8 +521,7 @@
             <div class="current-project">
                 <h3 class="project-title">Currently Working On</h3>
                 <p class="project-description">
-                    Building an innovative web application that combines modern technologies to solve real-world problems. 
-                    Stay tuned for updates and feel free to reach out if you'd like to collaborate!
+                    Building powerful AI agents at <a href="https://www.growstack.ai/" target="_blank" rel="noopener noreferrer">Growstack.ai</a> 
                 </p>
                 <a href="#" class="project-link">Learn More →</a>
             </div>
@@ -504,27 +576,63 @@
             }
         });
 
-        // Animated Background Particles
-        function createParticles() {
+        // Neural Network Background
+        function createNeuralNetwork() {
             const bgAnimation = document.getElementById('bgAnimation');
-            const particleCount = 50;
+            const nodeCount = 25;
+            const nodes = [];
 
-            for (let i = 0; i < particleCount; i++) {
-                const particle = document.createElement('div');
-                particle.classList.add('particle');
+            // Clear existing content
+            bgAnimation.innerHTML = '';
+
+            // Create nodes
+            for (let i = 0; i < nodeCount; i++) {
+                const node = document.createElement('div');
+                node.classList.add('neural-node');
                 
-                // Random positioning
-                particle.style.left = Math.random() * 100 + '%';
-                particle.style.top = Math.random() * 100 + '%';
+                const x = Math.random() * window.innerWidth;
+                const y = Math.random() * window.innerHeight;
                 
-                // Random animation delay
-                particle.style.animationDelay = Math.random() * 6 + 's';
+                node.style.left = x + 'px';
+                node.style.top = y + 'px';
                 
-                // Random animation duration
-                particle.style.animationDuration = (Math.random() * 3 + 4) + 's';
+                // Add random glow animation
+                if (Math.random() > 0.7) {
+                    node.style.animation = `nodeGlow ${3 + Math.random() * 4}s ease-in-out infinite`;
+                    node.style.animationDelay = Math.random() * 2 + 's';
+                }
                 
-                bgAnimation.appendChild(particle);
+                bgAnimation.appendChild(node);
+                nodes.push({ element: node, x: x, y: y });
             }
+
+            // Create connections between nearby nodes
+            nodes.forEach((nodeA, indexA) => {
+                nodes.forEach((nodeB, indexB) => {
+                    if (indexA !== indexB) {
+                        const distance = Math.sqrt(
+                            Math.pow(nodeA.x - nodeB.x, 2) + 
+                            Math.pow(nodeA.y - nodeB.y, 2)
+                        );
+                        
+                        // Only connect nodes within a certain distance
+                        if (distance < 200 && Math.random() > 0.7) {
+                            const connection = document.createElement('div');
+                            connection.classList.add('neural-connection');
+                            
+                            const angle = Math.atan2(nodeB.y - nodeA.y, nodeB.x - nodeA.x);
+                            
+                            connection.style.left = nodeA.x + 'px';
+                            connection.style.top = nodeA.y + 'px';
+                            connection.style.width = distance + 'px';
+                            connection.style.transform = `rotate(${angle}rad)`;
+                            connection.style.animationDelay = Math.random() * 4 + 's';
+                            
+                            bgAnimation.appendChild(connection);
+                        }
+                    }
+                });
+            });
         }
 
         // Smooth scrolling for anchor links
@@ -569,7 +677,7 @@
 
         // Observe elements for animation
         document.addEventListener('DOMContentLoaded', () => {
-            createParticles();
+            createNeuralNetwork();
             
             // Add initial styles for animation
             const animatedElements = document.querySelectorAll('.link-card, .current-project');
@@ -580,6 +688,11 @@
                 el.style.transitionDelay = `${index * 0.1}s`;
                 observer.observe(el);
             });
+        });
+
+        // Recreate neural network on window resize
+        window.addEventListener('resize', () => {
+            createNeuralNetwork();
         });
 
         // Add typing effect to hero title (optional)
@@ -601,7 +714,7 @@
         // Uncomment the line below to enable typing effect on the hero title
         // window.addEventListener('load', () => {
         //     const heroTitle = document.querySelector('.hero h1');
-        //     typeWriter(heroTitle, 'Your Name', 150);
+        //     typeWriter(heroTitle, 'Akhilesh Malthi', 150);
         // });
     </script>
 </body>
