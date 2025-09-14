@@ -1,38 +1,92 @@
 <div align="center">
 
-# Hey there! I'm Akhilesh Malthi 👋
+# Akhilesh Malthi
 
-<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="600">
+### AI Engineer | Building Production-Ready Intelligent Systems
+### 💡 Turning Complex Problems into Elegant AI Solutions
 
-### 🤖 Python Programmer & AI Engineer
-### 🌟 Building the Future with RAG & LLM Magic
+<br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Crafting+Intelligent+Systems;RAG+%26+LLM+Specialist;Let's+Build+Something+Amazing!)](https://git.io/typing-svg)
+**🎯 Currently:** AI/ML Developer Intern at **Aegion Dynamic Solutions**  
+**🚀 Focus:** RAG Systems, LLM Orchestration & Medical AI Applications  
+**📈 Commitment:** 500+ days of consistent coding & continuous learning
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akhilesh-malthi/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akhileshmalthi2299@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/AkhileshMalthi/)
 
 </div>
 
 ---
 
-## 🙋‍♂️ About Me
+## � Why I'm Your Next AI Engineer
 
-<img align="right" alt="Coding" width="350" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+🎯 **Mission:** Building production-ready AI systems that solve real-world problems  
+� **Superpower:** Turning complex AI research into practical, scalable solutions  
+�🔥 **Passion:** RAG pipelines, LLM orchestration, and intelligent automation  
 
-🎯 **Mission:** Building production-ready AI systems that actually solve real problems  
-🔥 **Passion:** RAG pipelines, LLM orchestration, and AI agents that work like magic  
-🏢 **Currently:** AI/ML Developer Intern at **Aegion Dynamic Solutions**  
-💡 **Current Focus:** Medical AI systems using Knowledge Graphs and advanced reasoning  
-
-### What Drives Me:
-- 🧠 Turning complex AI research into practical solutions
-- 🚀 Creating tools that make developers' lives easier
-- 🤝 Sharing knowledge and mentoring the next generation
-- 🔍 Always curious about the "why" behind every algorithm
-
-<br clear="both"/>
+### What Makes Me Different:
+- 📊 **500+ days** of consistent coding and learning
+- 🧠 **Deep AI Focus:** From transformers to production deployment
+- 🛠️ **Full-Stack AI:** Backend systems, APIs, and user-facing applications
+- 🎓 **Continuous Learner:** Always exploring the latest in AI/ML
 
 ---
 
-## 🛠️ My Arsenal
+## 📈 GitHub Activity - Proof of Consistency
+
+<div align="center">
+
+### 🔥 **500+ Days of Consistent Contribution**
+*Building, Learning, and Growing Every Day*
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AkhileshMalthi&theme=tokyonight&hide_border=true&stroke=0000&background=0D1117&ring=5BCDEC&fire=5BCDEC&currStreakLabel=5BCDEC" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AkhileshMalthi&custom_title=My%20Development%20Journey&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=5BCDEC&area_color=FFFFFF&title_color=FFFFFF&area=true" />
+
+</div>
+
+---
+
+## � Professional Experience
+
+### 🏥 AI/ML Developer Intern | Aegion Dynamic Solutions
+*Building the future of medical AI applications*
+
+- 🧠 Developing **RAG-powered medical diagnostic systems** using advanced knowledge graphs
+- 🔬 Building **intelligent document processing pipelines** for healthcare data
+- ⚡ Implementing **LLM orchestration frameworks** for production environments
+- �🛠️ Working with **vector databases** and **semantic search** for medical knowledge retrieval
+
+---
+
+## 🚀 Featured Projects
+
+### 🤖 AI-Powered Personal Assistant
+*Python • LangChain • OpenAI API • Vector Database*
+- Built a conversational AI that learns from user interactions
+- Implemented RAG architecture for context-aware responses
+- Deployed using FastAPI with real-time chat capabilities
+
+### 📊 Data Analytics Dashboard
+*Python • Streamlit • Pandas • Machine Learning*
+- Created interactive dashboards for business intelligence
+- Implemented predictive models for trend analysis
+- Automated data pipeline with scheduling and monitoring
+
+### 🔍 Smart Code Search Engine
+*Python • Elasticsearch • NLP • Web Scraping*
+- Developed semantic code search using transformer models
+- Built web scraper for GitHub repositories analysis
+- Implemented similarity matching for code recommendation
+
+> 💡 **More projects available on my GitHub** - Always building and experimenting!
+
+---
+
+## 🛠️ Technical Arsenal
 
 ### 🎨 Languages & Core Skills
 <div align="center">
@@ -86,7 +140,7 @@
 🔄 **LangGraph** - Advanced AI workflow orchestration  
 ⚓ **Kubernetes** - Containerization mastery 
 ⚡ **GitHub Actions** - CI/CD automation  
-🤖 **System Design** - Buidling Scalable Systems  
+🤖 **System Design** - Building Scalable Systems  
 🧪 **AIOps** - Production AI Applications optimization
 
 </div>
@@ -98,10 +152,6 @@
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AkhileshMalthi&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AkhileshMalthi&layout=compact&theme=radical&hide_border=true"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AkhileshMalthi&theme=radical&hide_border=true" />
 </div>
 
 ---
@@ -127,9 +177,5 @@
 <br>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=AkhileshMalthi&style=for-the-badge&color=blueviolet)
-
----
-
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 
 </div>
