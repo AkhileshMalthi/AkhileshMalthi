@@ -19,7 +19,7 @@
 
 🎯 **Mission:** Building production-ready AI systems that actually solve real problems  
 🔥 **Passion:** RAG pipelines, LLM orchestration, and AI agents that work like magic  
-🏢 **Currently:** ML Research Intern at **Aegion Dynamic Solutions**  
+🏢 **Currently:** AI/ML Developer Intern at **Aegion Dynamic Solutions**  
 💡 **Current Focus:** Medical AI systems using Knowledge Graphs and advanced reasoning  
 
 ### What Drives Me:
@@ -58,7 +58,7 @@
 
 **🧠 Specializations:**
 - **Generative AI:** GANs, VAEs, Diffusion Models, Transformers
-- **LLM Mastery:** Prompt Engineering, Fine-tuning, RAG Architectures
+- **LLM Mastery:** Prompt Engineering, Fine-tuning, RAG Architectures, Agentic AI
 - **AI Orchestration:** LangChain, LlamaIndex, LangGraph, CrewAI
 
 ### 🗄️ Data & Infrastructure
@@ -75,7 +75,7 @@
 **📊 Data Wizardry:**
 - **Vector Databases:** FAISS, ChromaDB for lightning-fast similarity search
 - **Knowledge Graphs:** Neo4j for complex relationship modeling
-- **DevOps:** Git, GitHub Actions, CI/CD pipelines
+- **DevOps:** Git, GitHub Actions, CI/CD pipelines, Docker
 
 ---
 
@@ -84,10 +84,10 @@
 <div align="center">
 
 🔄 **LangGraph** - Advanced AI workflow orchestration  
-🐳 **Docker & Kubernetes** - Containerization mastery  
+⚓ **Kubernetes** - Containerization mastery 
 ⚡ **GitHub Actions** - CI/CD automation  
 🤖 **System Design** - Buidling Scalable Systems  
-🧪 **MLOps** - Production ML pipeline optimization  
+🧪 **AIOps** - Production AI Applications optimization
 
 </div>
 
