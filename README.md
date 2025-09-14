@@ -9,7 +9,7 @@
 
 **🎯 Currently:** AI/ML Developer Intern at **Aegion Dynamic Solutions**  
 **🚀 Focus:** RAG Systems, LLM Orchestration & Medical AI Applications  
-**📈 Commitment:** 500+ days of consistent coding & continuous learning
+**📈 Commitment:** Consistent coding & Continuous learning
 
 <br>
 
@@ -39,7 +39,7 @@
 
 <div align="center">
 
-### 🔥 **500+ Days of Consistent Contribution**
+### 🔥 **Consistent Contribution**
 *Building, Learning, and Growing Every Day*
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=AkhileshMalthi&theme=tokyonight&hide_border=true&stroke=0000&background=0D1117&ring=5BCDEC&fire=5BCDEC&currStreakLabel=5BCDEC" />
@@ -50,7 +50,7 @@
 
 ---
 
-## 💼 Professional Experience
+<!-- ## 💼 Professional Experience
 
 ### 🏥 AI/ML Developer Intern | Aegion Dynamic Solutions
 *Building the future of medical AI applications*
@@ -60,9 +60,9 @@
 - ⚡ Implementing **LLM orchestration frameworks** for production environments
 - 🛠️ Working with **vector databases** and **semantic search** for medical knowledge retrieval
 
----
+--- -->
 
-## 🚀 Featured Projects
+<!-- ## 🚀 Featured Projects
 
 ### 🤖 AI-Powered Personal Assistant
 *Python • LangChain • OpenAI API • Vector Database*
@@ -84,7 +84,7 @@
 
 > 💡 **More projects available on my GitHub** - Always building and experimenting!
 
----
+--- -->
 
 ## 🛠️ Technical Arsenal
 
