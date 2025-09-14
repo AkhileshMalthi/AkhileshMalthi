@@ -21,11 +21,11 @@
 
 ---
 
-## � Why I'm Your Next AI Engineer
+## Why I'm Your Next AI Engineer
 
 🎯 **Mission:** Building production-ready AI systems that solve real-world problems  
-� **Superpower:** Turning complex AI research into practical, scalable solutions  
-�🔥 **Passion:** RAG pipelines, LLM orchestration, and intelligent automation  
+💪 **Superpower:** Turning complex AI research into practical, scalable solutions  
+🔥 **Passion:** RAG pipelines, LLM orchestration, and intelligent automation  
 
 ### What Makes Me Different:
 - 📊 **500+ days** of consistent coding and learning
@@ -50,7 +50,7 @@
 
 ---
 
-## � Professional Experience
+## 💼 Professional Experience
 
 ### 🏥 AI/ML Developer Intern | Aegion Dynamic Solutions
 *Building the future of medical AI applications*
@@ -58,7 +58,7 @@
 - 🧠 Developing **RAG-powered medical diagnostic systems** using advanced knowledge graphs
 - 🔬 Building **intelligent document processing pipelines** for healthcare data
 - ⚡ Implementing **LLM orchestration frameworks** for production environments
-- �🛠️ Working with **vector databases** and **semantic search** for medical knowledge retrieval
+- 🛠️ Working with **vector databases** and **semantic search** for medical knowledge retrieval
 
 ---
 
