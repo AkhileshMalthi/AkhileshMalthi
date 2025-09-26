@@ -350,23 +350,26 @@
             border: 1px solid rgba(0, 0, 0, 0.1);
         }
 
-        /* Mobile Responsive */
+        /* Enhanced Mobile Navigation */
         @media (max-width: 768px) {
             .nav-menu {
                 position: fixed;
                 top: 100%;
                 left: 0;
                 right: 0;
-                background: rgba(10, 10, 10, 0.95);
+                background: rgba(10, 10, 10, 0.98);
                 backdrop-filter: blur(20px);
                 flex-direction: column;
                 padding: 2rem;
-                gap: 1.5rem;
+                gap: 2rem;
                 border-top: 1px solid rgba(255, 255, 255, 0.1);
                 transform: translateY(-100%);
                 opacity: 0;
                 visibility: hidden;
-                transition: var(--transition);
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                max-height: calc(100vh - 5rem);
+                overflow-y: auto;
+                z-index: 999;
             }
 
             .nav-menu.active {
@@ -375,16 +378,102 @@
                 visibility: visible;
             }
 
+            .nav-link {
+                font-size: 1.1rem;
+                padding: 1rem 0;
+                text-align: center;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                width: 100%;
+            }
+
+            .nav-link:last-child {
+                border-bottom: none;
+            }
+
             .menu-toggle {
                 display: flex;
             }
 
             .logo {
-                font-size: 1.2rem;
+                font-size: 1.1rem;
             }
 
             .logo-subtitle {
-                font-size: 0.6rem;
+                font-size: 0.55rem;
+            }
+        }
+
+        /* Enhanced Typography Responsiveness */
+        @media (max-width: 1200px) {
+            .hero-name {
+                font-size: clamp(3.5rem, 8vw, 6rem);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-name {
+                font-size: clamp(2.5rem, 10vw, 4rem);
+                line-height: 1.1;
+            }
+            
+            .tagline-text {
+                font-size: 1rem;
+            }
+            
+            .hero-description {
+                font-size: 0.95rem;
+                line-height: 1.5;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .header {
+                padding: 0.75rem 0;
+            }
+            
+            .nav-wrapper {
+                padding: 0 1rem;
+            }
+            
+            .header-actions {
+                gap: 0.75rem;
+            }
+            
+            .theme-toggle {
+                width: 2.25rem;
+                height: 2.25rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-name {
+                font-size: clamp(2rem, 12vw, 3rem);
+            }
+            
+            .greeting {
+                font-size: 1rem;
+            }
+            
+            .tagline-text {
+                font-size: 0.9rem;
+            }
+            
+            .hero-description {
+                font-size: 0.9rem;
+            }
+
+            .logo {
+                font-size: 1rem;
+            }
+            
+            .logo-subtitle {
+                font-size: 0.5rem;
+            }
+
+            .container {
+                padding: 0 1rem;
             }
         }
 
@@ -706,8 +795,8 @@
 
         .links-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
             margin-bottom: 4rem;
         }
 
@@ -877,7 +966,7 @@
             );
         }
 
-        /* Responsive Design */
+        /* Enhanced Responsive Design */
         @media (max-width: 768px) {
             body {
                 padding-top: 4rem;
@@ -888,22 +977,14 @@
             }
             
             .hero {
-                padding: 6rem 0 4rem;
+                padding: 4rem 0 3rem;
                 min-height: 90vh;
+                text-align: center;
             }
             
-            .hero-name {
-                font-size: clamp(3rem, 12vw, 5rem);
-                margin: 0.5rem 0 1.5rem;
-            }
-            
-            .hero-tagline .tagline-text {
-                font-size: 1.1rem;
-            }
-            
-            .hero-description {
-                font-size: 1rem;
-                margin-bottom: 2rem;
+            .hero-content {
+                max-width: 100%;
+                padding: 0 1rem;
             }
             
             .hero-actions {
@@ -911,13 +992,15 @@
                 align-items: center;
                 gap: 1rem;
                 margin-bottom: 2rem;
+                width: 100%;
             }
             
             .cta-button {
                 width: 100%;
-                max-width: 280px;
+                max-width: 300px;
                 justify-content: center;
                 padding: 1rem 2rem;
+                font-size: 0.95rem;
             }
             
             .floating-orb {
@@ -926,11 +1009,95 @@
             
             .links-grid {
                 grid-template-columns: 1fr;
-                gap: 1.5rem;
+                gap: 1rem;
+            }
+            
+            .link-card {
+                padding: 1.5rem;
+                min-height: 120px;
+            }
+            
+            .current-project {
+                padding: 1.5rem;
+                margin: 2rem 0;
+            }
+            
+            .links-section {
+                padding: 3rem 0;
             }
             
             .social-links {
                 gap: 1rem;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .social-link {
+                width: 2.75rem;
+                height: 2.75rem;
+            }
+            
+            .footer {
+                padding: 2rem 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .cta-button {
+                max-width: 280px;
+                padding: 0.875rem 1.5rem;
+                font-size: 0.9rem;
+            }
+            
+            .link-card {
+                padding: 1.25rem;
+            }
+            
+            .social-link {
+                width: 2.5rem;
+                height: 2.5rem;
+                font-size: 0.9rem;
+            }
+            
+            .footer-text {
+                font-size: 0.8rem;
+                line-height: 1.4;
+            }
+        }
+
+        /* Touch-friendly interactions */
+        @media (hover: none) and (pointer: coarse) {
+            .link-card:hover {
+                transform: none;
+            }
+            
+            .link-card:active {
+                transform: scale(0.98);
+                transition: transform 0.1s ease;
+            }
+            
+            .cta-button:hover {
+                transform: none;
+            }
+            
+            .cta-button:active {
+                transform: scale(0.96);
+            }
+            
+            .nav-link:hover {
+                background: none;
+            }
+            
+            .nav-link:active {
+                background: var(--hover-bg);
+            }
+            
+            .social-link:hover {
+                transform: none;
+            }
+            
+            .social-link:active {
+                transform: scale(0.9);
             }
         }
 
@@ -1190,28 +1357,49 @@
             }
         });
 
-        // Neural Network Background
+        // Enhanced Neural Network Background
         function createNeuralNetwork() {
             const bgAnimation = document.getElementById('bgAnimation');
-            const nodeCount = 25;
+            const screenWidth = window.innerWidth;
+            const screenHeight = window.innerHeight;
+            
+            // Adjust node count based on screen size for performance
+            let nodeCount;
+            if (screenWidth < 480) {
+                nodeCount = 12;
+            } else if (screenWidth < 768) {
+                nodeCount = 18;
+            } else if (screenWidth < 1200) {
+                nodeCount = 22;
+            } else {
+                nodeCount = 25;
+            }
+            
             const nodes = [];
 
             // Clear existing content
             bgAnimation.innerHTML = '';
 
-            // Create nodes
+            // Create nodes with responsive positioning
             for (let i = 0; i < nodeCount; i++) {
                 const node = document.createElement('div');
                 node.classList.add('neural-node');
                 
-                const x = Math.random() * window.innerWidth;
-                const y = Math.random() * window.innerHeight;
+                const x = Math.random() * screenWidth;
+                const y = Math.random() * screenHeight;
                 
                 node.style.left = x + 'px';
                 node.style.top = y + 'px';
                 
-                // Add random glow animation
-                if (Math.random() > 0.7) {
+                // Smaller nodes on mobile for better performance
+                if (screenWidth < 768) {
+                    node.style.width = '3px';
+                    node.style.height = '3px';
+                    node.style.boxShadow = '0 0 4px rgba(0, 212, 255, 0.3)';
+                }
+                
+                // Add random glow animation (reduced on mobile)
+                if (Math.random() > (screenWidth < 768 ? 0.8 : 0.7)) {
                     node.style.animation = `nodeGlow ${3 + Math.random() * 4}s ease-in-out infinite`;
                     node.style.animationDelay = Math.random() * 2 + 's';
                 }
@@ -1220,6 +1408,10 @@
                 nodes.push({ element: node, x: x, y: y });
             }
 
+            // Adjusted connection distance and frequency for mobile performance
+            const maxDistance = screenWidth < 768 ? 120 : screenWidth < 1200 ? 150 : 200;
+            const connectionThreshold = screenWidth < 768 ? 0.8 : 0.7;
+            
             // Create connections between nearby nodes
             nodes.forEach((nodeA, indexA) => {
                 nodes.forEach((nodeB, indexB) => {
@@ -1230,7 +1422,7 @@
                         );
                         
                         // Only connect nodes within a certain distance
-                        if (distance < 200 && Math.random() > 0.7) {
+                        if (distance < maxDistance && Math.random() > connectionThreshold) {
                             const connection = document.createElement('div');
                             connection.classList.add('neural-connection');
                             
@@ -1312,9 +1504,43 @@
             });
         }, observerOptions);
 
+        // Mobile Performance Optimization
+        function optimizeForMobile() {
+            const isMobile = window.innerWidth < 768;
+            const isTablet = window.innerWidth < 1200 && window.innerWidth >= 768;
+            
+            if (isMobile) {
+                // Disable complex animations on mobile for performance
+                document.querySelectorAll('.floating-orb').forEach(orb => {
+                    orb.style.display = 'none';
+                });
+                
+                // Reduce animation complexity
+                document.documentElement.style.setProperty('--transition', 'all 0.2s ease');
+                
+                // Disable parallax effects on mobile
+                window.removeEventListener('scroll', handleParallax);
+            } else if (isTablet) {
+                // Moderate optimizations for tablets
+                document.documentElement.style.setProperty('--transition', 'all 0.25s ease');
+            }
+            
+            // Always recreate neural network for current screen size
+            createNeuralNetwork();
+        }
+
+        // Parallax handler function (to be able to remove it)
+        function handleParallax() {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero');
+            if (hero && window.innerWidth > 768) {
+                hero.style.transform = `translateY(${scrolled * 0.3}px)`;
+            }
+        }
+
         // Observe elements for animation
         document.addEventListener('DOMContentLoaded', () => {
-            createNeuralNetwork();
+            optimizeForMobile();
             
             // Add subtle glow effect on hero hover instead of movement
             const hero = document.querySelector('.hero');
@@ -1346,10 +1572,13 @@
             });
         });
 
-        // Recreate neural network on window resize
+        // Recreate neural network and optimize on window resize
         window.addEventListener('resize', () => {
-            createNeuralNetwork();
+            optimizeForMobile();
         });
+
+        // Add parallax scroll listener for desktop only
+        window.addEventListener('scroll', handleParallax);
 
         // Add typing effect to hero title (optional)
         function typeWriter(element, text, speed = 100) {
