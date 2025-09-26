@@ -28,7 +28,6 @@
 🔥 **Passion:** RAG pipelines, LLM orchestration, and intelligent automation  
 
 ### What Makes Me Different:
-- 📊 **500+ days** of consistent coding and learning
 - 🧠 **Deep AI Focus:** From transformers to production deployment
 - 🛠️ **Full-Stack AI:** Backend systems, APIs, and user-facing applications
 - 🎓 **Continuous Learner:** Always exploring the latest in AI/ML
