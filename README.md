@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A855F7&center=true&vCenter=true&width=940&lines=Hey+there!+I'm+Akhilesh+Malthi;AI%2FML+Developer+%7C+Building+Intelligent+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A855F7&center=true&vCenter=true&width=940&lines=Hey+there!+I'm+Akhilesh+Malthi;AI+Engineer+%7C+Building+Intelligent+Systems" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -8,7 +8,7 @@
 
 ## About Me
 
-I'm an AI/ML Developer focused on building intelligent systems and production-grade applications. I work with LLMs, AI agents, and scalable backend systems to create practical solutions for real-world problems.
+I'm an AI Engineer focused on building intelligent systems and production-grade applications. I work with LLMs, AI agents, and scalable backend systems to create practical solutions for real-world problems.
 
 I enjoy implementing research papers, building conversational AI tools, and architecting multi-agent systems. When I'm not coding, I'm solving algorithmic problems or exploring new AI frameworks.
 
