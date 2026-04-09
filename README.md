@@ -33,13 +33,7 @@ Docker • AWS • PostgreSQL • Redis • Git • Next.js • React
 
 ## Currently Working On
 
-Building AI-powered solutions at **Aegion Dynamic Solutions** as an AI/ML Developer Intern:
-
-- Implementing advanced reasoning systems with Think-On-Graph
-- Creating natural language query interfaces for SQL databases
-- Developing internal Python packages for conversational AI
-- Engineering AI-powered policy drafting systems for enterprise clients
-
+Building AI-powered solutions at **LynkyAI** as an AI Engineer Intern:
 ---
 
 <div align="center">
