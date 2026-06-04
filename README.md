@@ -33,7 +33,7 @@ Docker • AWS • PostgreSQL • Redis • Git • Next.js • React
 
 ## Currently Working On
 
-Building AI-powered solutions at **LynkyAI** as an AI Engineer Intern
+Building AI-powered solutions at **Aegion Dynamic Solutions** as an AI Engineer
 
 ---
 
